@@ -162,8 +162,6 @@ public class MainActivity extends AppCompatActivity {
                 i.putExtra("email",email.getText().toString());
                 i.putExtra("phone",phone.getText().toString());
                 startActivity(i);
-//
-
             }
         });
 
@@ -175,6 +173,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(),LoginActivity.class));
         finish();
     }
-
-
 }
